@@ -11,9 +11,9 @@ const Hero = () => {
           Thang Q. Bui
         </h1>
 
-        <h2 className='flex items-center gap-2 text-1xl lg:text-1xl text-gray-200 mb-8 mx-auto lg:mx-0'>
+        <h2 className='flex items-center gap-1 text-1xl lg:text-1xl text-gray-200 mb-8 mx-auto lg:mx-0'>
 
-          <span className='font-semibold'>AI</span>Engineer
+          <span className='font-semibold'>Data</span>Engineer
 
         </h2>
 
