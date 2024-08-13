@@ -7,11 +7,22 @@ const CurrentTimeLineExp = () => {
     <Timeline>
 
       <TimelineEvent active>
+        <TimelineEvent.Title><a target='_blank' rel='noopener noreferrer' className='hover:text-white hover:underline transition-all ease'><strong className='text-white'>Home Credit Vietnam</strong></a> | sep. 2024 - current</TimelineEvent.Title>
+
+        <TimelineEvent.Description>
+
+          <li><strong className='text-white'> Data Engineer </strong> | Home Racer Program 2024</li>
+            <li> Upcoming job...</li>
+        </TimelineEvent.Description>
+
+      </TimelineEvent>
+
+      <TimelineEvent>
         <TimelineEvent.Title><a target='_blank' rel='noopener noreferrer' className='hover:text-white hover:underline transition-all ease'><strong className='text-white'>KMS Technology</strong></a> | mar. 2024 - jul. 2024</TimelineEvent.Title>
 
         <TimelineEvent.Description>
 
-          <li><strong className='text-white'> DevOps Engineer Intern </strong></li>
+          <li><strong className='text-white'> AI Engineer Intern </strong></li>
             <li> GitOps Deployment of AI applications using Kubernetes, ArgoCD, Helm and GitHub Actions</li>
             <li> Development of LLM agent with CrewAI, LlamaIndex</li>
             <li> Model serving with FastAPI, React JS, and Docker</li>

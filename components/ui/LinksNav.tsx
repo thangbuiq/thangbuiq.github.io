@@ -16,12 +16,12 @@ export const navItemsSelected: { [key: string]: NavItemHeaderAnimation } = {
     y: -3,
     w: '75px',
   },
-  '/cv': {
-    name: 'cv',
-    x: 145,
-    y: -3,
-    w: '35px',
-  }
+  // '/cv': {
+  //   name: 'cv',
+  //   x: 145,
+  //   y: -3,
+  //   w: '35px',
+  // }
 };
 
 const LinksNav = () => {
