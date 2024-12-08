@@ -9,7 +9,7 @@ const AboutMe = () => {
       </h2>
 
       <p className='text-base text-gray-400'>
-        I am a <b>Data Engineer</b> with a data-driven mindset, a deep passion for technology. I enjoy learning new things and have experience building and deploying AI models and data pipelines. I've worked in areas like computer vision, natural language processing, and reinforcement learning.
+        I am a <b>Big Data Engineer</b> with a data-driven mindset and a deep passion for technology. I enjoy learning new things and have experience building and deploying scalable data pipelines and big data solutions. I've worked in areas like distributed computing and data warehousing.
       </p>
 
     </AnimationContainer>

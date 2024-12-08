@@ -13,24 +13,22 @@ const Hero = () => {
 
         <h2 className='flex items-center gap-1 text-1xl lg:text-1xl text-gray-200 mb-8 mx-auto lg:mx-0'>
 
-          <span className='font-semibold'>Data</span>Engineer
+          <span className='font-semibold'>Big Data</span>Engineer
 
         </h2>
 
       </AnimationContainer>
 
-      <AnimationContainer customClassName='w-[80px] sm:w-[176px] relative mb-6 lg:mb-0'>
-        <a href='https://linkedin.com/in/thangbuiq' target='_blank' rel='noreferrer'>
+      <AnimationContainer customClassName='w-[80px] sm:w-[200px] relative mb-6 lg:mb-0'>
         <Image
           alt='Thang Q. Bui'
-          height={176}
-          width={176}
+          height={200}
+          width={200}
           src='/face.png'
           sizes='30vw'
           priority
           className='rounded-[50%] hover:grayscale transition-all ease'
         />
-        </a>
       </AnimationContainer>
 
     </div>

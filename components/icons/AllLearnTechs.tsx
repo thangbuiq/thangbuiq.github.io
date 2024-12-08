@@ -88,6 +88,18 @@ const AllLearningTechs = () => {
           </div>
         </motion.li>
 
+        <motion.li style={{ opacity: 1, transform: 'none' }} variants={animation}>
+          <div className='transition duration-200 grayscale-0 hover:grayscale'>
+            <Image src='/hadoop.svg' alt='hadoop' width={40} height={40} />
+          </div>
+        </motion.li>
+
+        <motion.li style={{ opacity: 1, transform: 'none' }} variants={animation}>
+          <div className='transition duration-200 grayscale-0 hover:grayscale'>
+            <Image src='/spark.svg' alt='spark' width={36} height={36} />
+          </div>
+        </motion.li>
+
       </motion.ul>
     </>
   )

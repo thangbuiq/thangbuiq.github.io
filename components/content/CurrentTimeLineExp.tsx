@@ -7,12 +7,14 @@ const CurrentTimeLineExp = () => {
     <Timeline>
 
       <TimelineEvent active>
-        <TimelineEvent.Title><a target='_blank' rel='noopener noreferrer' className='hover:text-white hover:underline transition-all ease'><strong className='text-white'>Home Credit Vietnam</strong></a> | sep. 2024 - current</TimelineEvent.Title>
+        <TimelineEvent.Title><a target='_blank' rel='noopener noreferrer' className='hover:text-white hover:underline transition-all ease'><strong className='text-white'>Home Credit Vietnam</strong></a> | aug. 2024 - current</TimelineEvent.Title>
 
         <TimelineEvent.Description>
 
-          <li><strong className='text-white'> Data Engineer </strong> | Home Racer Program 2024</li>
-            <li> Upcoming job...</li>
+            <li><strong className='text-white'> Data Engineer </strong> | Home Racer 2024</li>
+            <li> Developing big data pipelines using Spark, Hadoop (Hive), Airflow</li>
+            <li> Building PowerBI reports reporting credit metrics like FPD10, FPD30, AR,...</li>
+            <li> ... More ... </li>
         </TimelineEvent.Description>
 
       </TimelineEvent>

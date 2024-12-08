@@ -11,8 +11,8 @@ const Head = () => {
 
   const meta = {
     title: `Thang Q. Bui | Portfolio ${pathname === '/' ? '' : '· ' + titleFixedToShow}`,
-    description: `Hi! My name is Thang Bui. I am a DevOps Engineer. I am passionate about technology and I love to learn new things.`,
-    keywords: 'Thang Q. Bui, DevOps Engineer, thangbuiq, thangqbui',
+    description: `Hi! My name is Thang Bui. I am a Data Engineer. I am passionate about technology and I love to learn new things.`,
+    keywords: 'Thang Q. Bui, Data Engineer, thangbuiq, thangqbui',
     type: 'website',
     image: '/og-image.png'
   };
